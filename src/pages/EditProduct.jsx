@@ -18,11 +18,14 @@ function EditProduct() {
         dispatch(updateProduct({ ...data, id: product.id }));
         navigate("/");
     };
-    return (
+    return (    
+        <>
+        <Navbar />
         <div className="container">
             <h2 className="mb-4">Edit Product</h2>
             <ProductForm initialData={product} onSubmit={handleUpdate}/>
         </div>
+        </>
     );
 }
 

@@ -11,10 +11,13 @@ function AddProduct() {
     navigate("/");
   };
   return (
+    <>
+    <Navbar />
     <div className="container">
       <h2 className="mb-4">Add Product</h2>
       <ProductForm onSubmit={handleAdd} />
     </div>
+    </>
   );
 }
 
