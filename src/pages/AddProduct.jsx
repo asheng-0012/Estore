@@ -2,6 +2,7 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { addProduct } from "../redux/productSlice";
 import ProductForm from "../components/ProductForm";
+import Navbar from "../components/Navbar";
 
 function AddProduct() {
   const dispatch = useDispatch();

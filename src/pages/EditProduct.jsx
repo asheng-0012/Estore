@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { updateProduct } from "../redux/productSlice";
 import ProductForm from "../components/ProductForm";
+import Navbar from "../components/Navbar";
 
 
 function EditProduct() {

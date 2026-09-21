@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {getAllProducts,searchProduct} from "../redux/productSlice";
 import ProductCard from "../components/ProductCard";
+import Navbar from "../components/Navbar";
 
 function Home() {
   const dispatch = useDispatch();
